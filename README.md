@@ -258,30 +258,4 @@ RECOMMENDATIONS:
 - Expand premium vehicle fleet in high-revenue locations
 ```
 
----
 
-
-## 🎓 Learning Resources
-
-- **Ollama Documentation**: https://ollama.ai/docs
-- **Pandas Tutorial**: https://pandas.pydata.org/docs/getting_started/
-- **Prompt Engineering**: https://www.promptingguide.ai/
-- **ReportLab Guide**: https://www.reportlab.com/docs/
-
----
-
-<p align="center">
-  <strong>Built with ❤️ for the data science community</strong>
-  <br>
-  <em>"Make data analysis accessible, private, and powerful"</em>
-</p>
-
-<p align="center">
-  <a href="https://github.com/yourusername/ollama-data-agent/stargazers">⭐ Star this repo</a> •
-  <a href="https://github.com/yourusername/ollama-data-agent/issues">🐛 Report Bug</a> •
-  <a href="https://github.com/yourusername/ollama-data-agent/issues">✨ Request Feature</a>
-</p>
-
----
-
-**Made with Ollama** 🦙 | **Powered by LLaMA** 🤖 | **Privacy First** 🔒
