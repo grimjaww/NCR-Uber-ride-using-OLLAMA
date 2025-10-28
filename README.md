@@ -173,28 +173,6 @@ Economy         $1,650,000
 
 ---
 
-## 🗂️ Project Structure
-```
-ollama-data-agent/
-├── ollama_data_agent.py          # Main agent implementation
-├── requirements.txt              # Python dependencies
-├── README.md                     # This file
-├── PROJECT_REPORT.md             # Detailed project report
-├── LICENSE                       # MIT License
-├── .gitignore                    # Git ignore rules
-│
-├── analysis_outputs/             # Auto-generated outputs
-│   ├── reports/                  # PDF reports
-│   │   └── report_*.pdf
-│   └── tables/                   # CSV exports
-│       └── table_*.csv
-│
-└── examples/                     # Example files
-    ├── sample_uber_data.csv      # Demo dataset
-    └── example_queries.md        # Sample questions
-```
-
----
 
 ## 🛠️ Configuration
 
@@ -234,54 +212,6 @@ reportlab>=4.0.0       # PDF generation
 
 ---
 
-## 🔧 Troubleshooting
-
-### Ollama Connection Error
-```bash
-❌ Cannot connect to Ollama at http://localhost:11434
-
-Solution:
-ollama serve
-```
-
-### Model Not Found
-```bash
-⚠️ Model llama3.2 not found
-
-Solution:
-ollama pull llama3.2
-```
-
-### Memory Issues
-```bash
-❌ Out of memory
-
-Solutions:
-1. Use smaller model: ollama pull llama3.2
-2. Close other applications
-3. Sample your dataset: df.sample(n=100000)
-```
-
-### Syntax Errors in Generated Code
-```
-The agent has automatic error recovery! 
-Just answer 'y' when asked to auto-fix syntax errors.
-```
-
----
-
-## 📈 Performance
-
-| Metric | Result |
-|--------|--------|
-| Query Response Time | 3-5 seconds |
-| PDF Generation | 8-12 seconds |
-| Max Dataset Size | 150,000+ rows tested |
-| Memory Usage (150K rows) | ~500MB |
-| Code Success Rate | 95%+ |
-| Error Recovery Rate | 90%+ |
-
----
 
 ## 🎯 Use Cases
 
