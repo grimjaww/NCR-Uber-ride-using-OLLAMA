@@ -233,78 +233,6 @@ reportlab>=4.0.0       # PDF generation
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### Areas for Contribution:
-- 🔌 Database connectors (PostgreSQL, MySQL, MongoDB)
-- 📊 Visualization support (optional matplotlib/plotly)
-- 🌐 Web interface (Streamlit/Gradio)
-- 🧪 More test cases and examples
-- 📚 Documentation improvements
-- 🌍 Multi-language support
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-```
-MIT License - Free for commercial and personal use
-✅ Commercial use
-✅ Modification
-✅ Distribution
-✅ Private use
-```
-
----
-
-## 🙏 Acknowledgments
-
-- **[Ollama Team](https://ollama.ai)** - Making local AI accessible
-- **[Meta AI](https://ai.meta.com)** - LLaMA models
-- **[Pandas](https://pandas.pydata.org)** - Data analysis tools
-- **[ReportLab](https://www.reportlab.com)** - PDF generation
-
----
-
-## 📞 Support
-
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/ollama-data-agent/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/ollama-data-agent/discussions)
-- 📧 **Email**: your.email@example.com
-- 🌟 **Star** this repo if you find it useful!
-
----
-
-## 🗺️ Roadmap
-
-### v1.1 (Next Release)
-- [ ] Web interface using Streamlit
-- [ ] Visualization support (charts/graphs)
-- [ ] Excel export functionality
-- [ ] Multi-file dataset support
-
-### v1.2
-- [ ] SQL database connectivity
-- [ ] Real-time data streaming
-- [ ] Custom report templates
-- [ ] API endpoints
-
-### v2.0
-- [ ] Advanced ML integration
-- [ ] LangChain support
-- [ ] Multi-modal analysis
-- [ ] Collaborative features
-
----
 
 ## 📊 Example Output
 
@@ -332,29 +260,6 @@ RECOMMENDATIONS:
 
 ---
 
-## 🌟 Why Choose This Agent?
-
-| Feature | This Agent | Cloud Solutions |
-|---------|-----------|-----------------|
-| **Privacy** | 100% Local | Data sent to cloud |
-| **Cost** | $0 | $20-100+/month |
-| **Speed** | 3-5 sec | 5-10 sec + latency |
-| **Offline** | ✅ Yes | ❌ No |
-| **Customizable** | ✅ Fully | ⚠️ Limited |
-| **Data Size** | Only RAM limit | Often has limits |
-
----
-
-## 💡 Tips & Best Practices
-
-1. **Start Simple**: Load data, get summary, ask basic questions
-2. **Build Reports Incrementally**: Add interesting analyses to report as you go
-3. **Use Specific Questions**: More specific = better AI-generated code
-4. **Review Generated Code**: Always review before executing
-5. **Save Often**: Important analyses are auto-saved to CSV
-6. **Sample Large Datasets**: Use `df.sample()` for initial exploration
-
----
 
 ## 🎓 Learning Resources
 
